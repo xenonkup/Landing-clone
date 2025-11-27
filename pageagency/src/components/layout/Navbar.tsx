@@ -38,13 +38,14 @@ export default function Navbar() {
                         ))}
                     </ul>
                 </div>
-
+                
+                {/* Button Get started a project */}
                 <div className="hidden gap-6 md:flex">
-                    {/* Button อยู่ขวา*/}
                     <button className="text-white font-medium bg-blue-700 p-2 rounded-md ">
                         <Link href="#">Get started a project</Link>
                     </button>
                 </div>
+
             </nav>
         </header>
     )
